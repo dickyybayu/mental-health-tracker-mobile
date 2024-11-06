@@ -138,11 +138,6 @@ class _MoodEntryFormPageState extends State<MoodEntryFormPage> {
                                   onPressed: () {
                                     Navigator.pop(context);
                                     _formKey.currentState!.reset();
-                                    setState(() {
-                                      _mood = "";
-                                      _feelings = "";
-                                      _moodIntensity = 0;
-                                    });
                                   },
                                 ),
                               ],
